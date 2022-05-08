@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <link rel="shortcut icon" href="./img/logo2.png" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet">
+    <title>كلية التجارة</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-4 col-xs-4">
+                    <div id="logo">
+                        <a href="index.html"><img src="./img/logo2.png"  class="h-50"></a>
+                    </div>
+                </div>
+                <div class="col-md-8 col-sm-8 col-xs-8" style="display: flex;flex-direction: column;">
+                    <ul class="nav small-padding">
+                        <li class="nav-item">
+                            <a class="nav-link"> <i class="fa fa-envelope"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link"> <i class="fa fa-phone"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link"> <i class="fa fa-linkedin"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link"> <i class="fa fa-youtube"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link"> <i class="fa fa-twitter"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link">
+                                <i class="fa fa-clock-o"></i>
+                                <small class="header-date" style="margin: 0 5px;">الثلاثاء 2 شوال  1443 - 3 مايو
+                                    2022</small>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link">
+                                <span style="margin: 0 5px;">EN</span>
+                                <i class="fa fa-globe"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link"> <i class="fa fa-search"></i></a>
+                        </li>
+                    </ul>
+                    <ul class="nav">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page"> <i class="fa fa-home"></i></a>
+                        </li>
+                        <li class="nav-item header-tab">
+                            <a class="nav-link" href="#">الرئيسية</a>
+                        </li>
+                        <li class="nav-item header-tab">
+                            <a class="nav-link active" href="#news-section">الأخبار</a>
+                        </li>
+                        <li class="nav-item header-tab">
+                            <a class="nav-link" href="#links-section">الخدمات الالكترونية</a>
+                        </li>
+                        <li class="nav-item header-tab">
+                            <a class="nav-link" href="#footer">اتصل بنا</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section id="top-section">
+        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000" style="background-image: url(./img/2.png);">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000" style="background-image: url(./img/3.jpg);">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <div class="search-section">
+            <div class="search-tab">
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" checked
+                        value="option1" hidden>
+                    <label class="form-check-label search-type" for="inlineRadio1">خدمات البلاغات الإلكترونية</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
+                        value="option2" hidden>
+                    <label class="form-check-label search-type" for="inlineRadio2">خدمات التواصل الإلكترونية</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3"
+                        value="option3" hidden>
+                    <label class="form-check-label search-type" for="inlineRadio3">الخدمات العامة</label>
+                </div>
+            </div>
+            <div class="search-bar">
+                <div class="input-group mb-4">
+                    <input type="text" class="form-control search-input" placeholder="بحث في الخدمات"
+                        aria-label="Search">
+                    <span class="input-group-text search-icon"></span>
+                </div>
+            </div>
+            <div class="bottom-search">
+                <ul class="nav justify-content-center">
+                    <li class="nav-item">
+                        <a class="nav-link active">الأكثر بحثاً / </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">المشروعات البحثية</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">التعليم المفتوح</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">طريقة التسجيل في مشروع محو الأمية</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">....</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section id="news-section" #news-section>
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="stats-title">
+                    <h2>أحدث أخـبـار </h2>
+                </div>
+                <div class="st-line"></div>
+                <div class="nd-line"></div>
+                <div class="status-desc">
+                    <h2>تجارة طنطا تنعى والدة الدكتورة علا محمد بهي الدين عبد المعطي هيكل</h2>
+                </div>
+                <div class="status-title-btn" >
+                    <h5 class="text-light"  onClick="dosomething(event)">استعراض الكل</h5>
+                </div>
+            </div>
+            <div class="col-sm-8 card-group">
+                <div class="card">
+                    <div class="news-img-container">
+                        <img src="./img/s1.jpeg">
+                    </div>
+                    <div class="card-body">
+                        <p class="news-date">4/14/2022</p>
+                        <h5 class="news-header">رئيس جامعة طنطا يقدم سماعات طبية للطلاب ضعاف السمع </h5>
+                        <p class="news-p">أكد الدكتور محمود ذكى رئيس جامعة طنطا أن الجامعة بذلت جهدا كبيرا فى تقديم
+                            الخدمات والرع...</p>
+                        <button onClick="dosomething()">
+                            <i class="fa fa-chevron-left"></i><span></span>
+                        </button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="news-img-container">
+                        <img src="./img/s3.jpeg">
+                    </div>
+                    <div class="card-body">
+                        <p class="news-date">4/14/2022</p>
+                        <h5 class="news-header">احتفالًا باليوبيل الذهبى للجامعة: "الشباب ودوره فى مواجهة الغزو
+                            الثقافى"...</h5>
+                        <p class="news-p">نظمت كلية الحاسبات والمعلومات بجامعة طنطا، اليوم، ندوة تثقيفية بعنوان :
+                            "الشباب وأهمية دوره فى مواجهة...</p>
+                        <button onClick="dosomething()"><i class="fa fa-chevron-left"></i><span></span></button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="news-img-container">
+                        <img src="./img/s2.jpg">
+                    </div>
+                    <div class="card-body">
+                        <p class="news-date">4/13/2022 </p>
+                        <h5 class="news-header">جامعة طنطا تتقدم 56 مركزًا عالميًا في التصنيف الإسباني «Scimago» </h5>
+                        <p class="news-p">أعلنت جامعة طنطا فى بيان لها اليوم تحقيق الجامعة تقدمًا كبيرًا فى تصنيف
+                            "سيماجو" الإسبانى ... </p>
+                        <button  onClick="dosomething()"><i class="fa fa-chevron-left"></i><span></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section id="links-section">
+        <div class="row">
+            <div class="col-md-4 links-title">
+                <div class="links-header">
+                    <h2>الخدمات الإلكترونية</h2>
+                </div>
+                <div class="st-line"></div>
+                <div class="nd-line"></div>
+                <div class="status-desc">
+                </div>
+            </div>
+            <div class="col-md-8 links-card">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="stats-card">
+                            <img class="p-4" src="./img/graduation1.png" alt=" أعضــاء هيئـة التدريـس">
+                            <h5 class="stats-header p-4 pt-0">
+                                أعضــاء هيئـة التدريـس
+                            </h5>
+
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="stats-card">
+                            <img class="p-4" src="./img/graduates2.png" alt=" أعضــاء هيئـة التدريـس">
+                            <h5 class="stats-header p-4 pt-0">الدراسات العليا</h5>
+
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="stats-card">
+                            <img class="p-4" src="./img/graduation3.png" alt=" أعضــاء هيئـة التدريـس">
+                            <h5 class="stats-header p-4 pt-0">أعضــاء هيئـة التدريـس
+                            </h5>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer">
+        <div class="bg-img">
+        </div>
+        <div class="row">
+            <div class="col-sm-6 st-col">
+                <div class="footer-tabs">
+                    <nav class="nav nav-pills flex-sm-row f-link">
+                        <a class="flex-sm-fill text-sm-center nav-link active" aria-current="page">تواصل معنا</a>
+                        <a class="flex-sm-fill text-sm-center nav-link">منصة الكتب الالكتروني </a>
+                        <a class="flex-sm-fill text-sm-center nav-link"> جداول دراسية </a>
+                    </nav>
+                    <div class="st-footer-line"></div>
+                    <div class="footer-desc">
+                        <h2>مؤسسة اكاديمية تعليمية رائدة في التعليم والبحث العلمي وخدمة المجتمع في مجال الاعمال على
+                            المستوى المحلي والدولي</h2>
+                    </div>
+                    <div class="footer-info-box">
+                        <li class="nav-item" id="social-info">
+                            <a class="nav-link">
+                                <i class="fa fa-map-marker fa-xs" aria-hidden="true"></i>
+                                <small style="margin: 0 5px;"> طنطا - شارع سعيد - كلية التجارة</small>
+                            </a>
+                            <a class="nav-link">
+                                <i class="fa fa-phone " aria-hidden="true"></i>
+                                <small style="margin: 0 5px;">( 3316612- 3314275 ) 040 2+</small>
+                            </a>
+                            <a class="nav-link">
+                                <i class="fa fa-envelope" aria-hidden="true"></i>
+                                <small style="margin: 0 5px;">dean_comm@commerce.tanta.edu.eg</small>
+                            </a>
+                        </li>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 nd-col">
+                <div>
+                    <ul class=" footer-icon nav">
+                        <li class="nav-item">
+                            <a class="nav-link"> <i class="fa fa-linkedin"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link"> <i class="fa fa-youtube"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link"> <i class="fa fa-twitter"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <iframe width="100%" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13708.481260227698!2d31.0026351!3d30.7992601!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6017a4d43afa4e66!2sFaculty%20Of%20Commerce!5e0!3m2!1sen!2seg!4v1602586732257!5m2!1sen!2seg"></iframe>
+
+            </div>
+        </div>
+        <div>
+            <ul class="nav justify-content-center footTabs">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">الرئيسية</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#news-section">الأخبار</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#links-section">الخدمات الالكترونية</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#footer">اتصل بنا</a>
+                </li>
+            </ul>
+            <div class="st-footer-tabs-line"></div>
+            <ul class="nav justify-content-center rights">
+                <li class="nav-item">
+                    <a class="nav-link">سياسة الاستخدام</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link">شروط الاستخدام</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link">الأسئلة المكررة</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link">ميثاق المتعاملين</a>
+                </li>
+            </ul>
+            <h5 class="footer-rights">تصميم وتطوير البوابة الإلكترونية جامعة طنطــا
+                جميع الحقوق محفوظة © جامعة طنطا | 2022</h5>
+        </div>
+    </footer>
+
+
+
+    <script type="text/javascript" src="https://use.fontawesome.com/5ac93d4ca8.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./js/app.js"></script>
+
+</body>
+
+</html>
